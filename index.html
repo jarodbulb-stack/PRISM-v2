@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PRISM v2 — Offline Business OS</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <h1>PRISM v2</h1>
+  <div id="syncStatus">Offline</div>
+</header>
+
+<nav class="nav">
+  <button onclick="App.show('dashboard')">Dashboard</button>
+  <button onclick="App.show('properties')">Properties</button>
+  <button onclick="App.show('clients')">Clients</button>
+  <button onclick="App.show('staff')">Staff</button>
+  <button onclick="App.show('finance')">Finance</button>
+</nav>
+
+<main id="view"></main>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
